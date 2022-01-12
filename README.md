@@ -23,3 +23,7 @@ And git will set itself straight, after what, you can pull again :)
 *************************************
 
 Done.
+
+and sucessed on my mac.
+link: https://stackoverflow.com/questions/49345357/fatal-unable-to-access-https-github-com-xxx-openssl-ssl-connect-ssl-error
+code is :git config --global --add remote.origin.proxy ""
