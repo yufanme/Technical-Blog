@@ -27,3 +27,12 @@ Done.
 and sucessed on my mac.
 link: https://stackoverflow.com/questions/49345357/fatal-unable-to-access-https-github-com-xxx-openssl-ssl-connect-ssl-error
 code is :git config --global --add remote.origin.proxy ""
+
+
+day 2022-1-25
+endpoint wrong, 
+tequila_get_endpoint = "https://tequila.kiwi.com//locations/query"
+to
+tequila_get_endpoint = "https://tequila-api.kiwi.com/locations/query"
+1st endpoint get html code, 2st right.
+endpoint should get from api page and include "api" key word.
